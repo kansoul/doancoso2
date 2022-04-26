@@ -1,0 +1,190 @@
+.fixNav{
+  width: 100%;
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: 100000000;
+}
+.cart-body{
+	z-index:999;
+}
+.inner-header{
+	background-color: #ffffff
+}
+.inner-title,.beta-breadcrumb, .beta-breadcrumb a{
+	color: black
+}
+.main-menu>ul.l-inline> li> a{
+	color: #fff;
+	padding: 10px 35px
+}
+.head{
+     color: black;
+     background: #e8eaee;
+    font-size: 13px;
+}
+.head a{
+    padding: 10px;       
+}
+.top a{
+text-decoration: none;
+color: #7f7f7e;
+}
+@media screen and (max-width: 1000px) {
+       .top a {display: none;}
+       }
+       .list{
+        	z-index: 99;
+        	padding: 0px;
+        	margin: 0px;
+
+        }
+        #menu ul {
+            background: white;
+            width: 100%;
+            padding: 0;
+            list-style-type: none;
+            text-align: left;
+        }
+        #menu li {
+            width: auto;
+            height: 45px;
+            line-height: 40px;
+            border-bottom: 1px solid #e8e8e8;
+            padding: 0 1em;
+        }
+        #menu li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            display: block;
+        }
+        #menu li:hover {
+            background: #CDE2CD;
+        }
+
+/*==Dropdown Menu==*/
+        #menu ul li {
+            position: relative;
+        }
+        #menu .sub-menu {
+            position: absolute;
+            left: 100%;
+            top: 0;
+            display: none;
+        }
+        #menu li:hover .sub-menu {
+            display: block;
+        }
+        .cen{
+         animation: colorBackground 10s infinite;
+         -webkit-animation: colorBackground 20s infinite;
+         -moz-animation: colorBackground 20s infinite;
+         -o-animation: colorBackground 10s infinite
+         }
+         @keyframes colorBackground {
+         0% {
+         background-color: pink;
+         color: white;
+         }
+         20% {
+         background-color: red;
+         color: yellow;
+         }
+         50% {
+         background-color: white;
+         color: yellow;
+         }
+         70% {
+         background-color: yellow;
+         color: yellow;
+         }
+         90% {
+         background-color: green;
+         color: yellow;
+         }
+         }
+         .tag ul{
+            list-style-type: none;
+            padding: 0px;
+
+          }
+          .tag li{
+            display: inline-block;
+            padding: 20px 6px;
+
+          }
+         .xh1{
+          background: white;
+          margin-top: 10px;
+
+         }
+         .xh1 a{
+         	
+          text-decoration: none;
+          color: black;
+          font-size: 14px;
+         }
+         .hovicon.effect-4 {
+  
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 1);
+}
+
+.hovicon.effect-4.color-green {
+    box-shadow: 0 0 0 4px green;
+}
+.hovicon.effect-4.color-blue {
+    box-shadow: 0 0 0 4px blue;
+}
+.hovicon.effect-4.color-orange {
+    box-shadow: 0 0 0 4px orange;
+}
+
+.hovicon.effect-4:before {
+    line-height: 92px;
+}
+.hovicon.effect-4:after {
+    top: -4px;
+    left: -4px;
+    padding: 0;
+    z-index: 10;
+    border: 4px dashed #fff;
+}
+
+.hovicon.effect-4.color-green:after {
+    border-color: green;
+}
+
+.hovicon.effect-4.color-blue:after {
+    border-color: blue;
+}
+
+.hovicon.effect-4.color-orange:after {
+    border-color: orange;
+}
+
+.hovicon.effect-4.color-green:hover {
+    box-shadow: none;
+    color: green;
+}
+.hovicon.effect-4.color-blue:hover {
+    box-shadow: none;
+    color: blue;
+}
+.hovicon.effect-4.color-orange:hover {
+    box-shadow: none;
+    color: orange;
+}
+.hovicon.effect-4:hover i {
+    color: #fff;
+}
+.hovicon.effect-4.sub-b:hover {
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.hovicon.effect-4.sub-b:hover:after {
+    -webkit-animation: spinAround 9s linear infinite;
+    -moz-animation: spinAround 9s linear infinite;
+    animation: spinAround 9s linear infinite;
+}
